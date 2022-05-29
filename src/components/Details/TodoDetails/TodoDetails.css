@@ -1,0 +1,31 @@
+.todo-details {
+	width: 90%;
+	height: 60%;
+	display: flex;
+	flex-direction: column;
+}
+
+.todo-details textarea {
+	width: 100%;
+	text-indent: 10px;
+	border: 1px solid #000000;
+	color: #000000;
+	border-radius: 8px;
+	resize:none;
+}
+
+.todo-details button {
+	align-self: end;
+	width: 15%;
+	height: 7%;
+	border: none;
+	background-color: #6DBE75;
+	color: white;
+	border-radius: 8px;
+	margin-top: 15px;
+}
+
+.todo-details h2 {
+	font-size: 36px;
+	margin: 20px 0;
+}
