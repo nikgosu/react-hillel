@@ -47,10 +47,6 @@ export class Todos extends Component {
 		})
 	}
 
-	componentDidUpdate (prevProps, prevState, snapshot){
-		console.log(this.state)
-	}
-
 	render (){
 		return (
 			<>
